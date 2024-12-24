@@ -1,0 +1,204 @@
+@media screen and (max-width: 767px) {
+  header {
+    position: relative;
+  }
+  .logo h2 {
+    color: #000 !important;
+  }
+  header .menu {
+    display: none;
+  }
+  header .responsivemenu.disable {
+    display: block;
+  }
+  .responsivemenu svg {
+    color: #000 !important;
+  }
+  .responsivemenu .responsivemenuTwo {
+    position: absolute;
+    background: #fa573a;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .responsivemenu .responsivemenuTwo.active {
+    display: none;
+  }
+  .responsivemenu .responsivemenuTwo li {
+    margin-bottom: 15px !important;
+    padding: 10px 0;
+  }
+  .responsivemenu .responsivemenuTwo li a {
+    color: #fff !important;
+  }
+
+  .banner {
+    display: block;
+    width: 100% !important;
+    padding: 10px !important;
+  }
+  .banner:after {
+    top: 50%;
+  }
+  .bannerleft {
+    width: 100%;
+  }
+  .bannerright {
+    width: 100%;
+    padding-top: 35px;
+  }
+  .bannerright .mainimg {
+    display: none;
+  }
+  .bannerright .disableimg {
+    display: block;
+  }
+
+  .overview .swiper-slide {
+    display: block !important;
+    width: 100vw !important;
+  }
+  .mySwiper1 {
+    padding: 10px !important;
+  }
+  .feature {
+    top: 200px !important;
+  }
+  .feature-body {
+    display: block;
+  }
+  .featureleft {
+    width: 100%;
+  }
+  .featureleft img {
+    width: 100%;
+    margin: 0 !important;
+  }
+  .featureright {
+    width: 100%;
+  }
+
+  .price-plan {
+    margin-top: 30px;
+    grid-template-columns: repeat(1, 100%);
+    padding: 10px !important;
+  }
+
+  .solution-body {
+    padding: 20px !important;
+    margin-top: 10px !important;
+    display: block;
+  }
+  .solutionleft {
+    width: 100%;
+  }
+
+  .solutionright {
+    width: 100%;
+  }
+  .solutionright img {
+    width: 100%;
+  }
+
+  footer h4 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header {
+    position: relative;
+  }
+  .logo h2 {
+    color: #000 !important;
+  }
+  header .menu {
+    display: none;
+  }
+  header .responsivemenu.disable {
+    display: block;
+  }
+  .responsivemenu svg {
+    color: #000 !important;
+  }
+  .responsivemenu .responsivemenuTwo {
+    position: absolute;
+    background: #fa573a;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  .responsivemenu .responsivemenuTwo.active {
+    display: none;
+  }
+  .responsivemenu .responsivemenuTwo li {
+    margin-bottom: 15px !important;
+    padding: 10px 0;
+  }
+  .responsivemenu .responsivemenuTwo li a {
+    color: #fff !important;
+  }
+
+  .banner {
+    padding: 170px 47px;
+  }
+  .banner:after {
+    top: 50%;
+  }
+
+  .swiper-slide {
+    display: block !important;
+  }
+  .swiper-slide .sliderlogo {
+    margin: 10px 30px;
+  }
+
+  .feature-body {
+    display: block;
+    padding: 0 20px;
+  }
+  .featureleft {
+    width: 100%;
+  }
+  .featureleft img {
+    margin-left: 100px;
+  }
+  .featureright {
+    width: 100%;
+  }
+
+  .price-plan {
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  .solution-body {
+    display: block;
+  }
+  .solutionleft {
+    width: 100%;
+  }
+  .solutionright {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .banner:after {
+    top: 50%;
+  }
+  .swiper-slide {
+    text-align: center;
+    display: block !important;
+  }
+  .swiper-slide .sliderlogo {
+    margin: 0 !important;
+  }
+
+  .featureleft img {
+    margin-left: 0;
+  }
+}
